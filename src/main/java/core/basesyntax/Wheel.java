@@ -37,7 +37,7 @@ public final class Wheel implements Cloneable {
 
     @Override
     public int hashCode() {
-        return Objects.hashCode(radius);
+        return Objects.hash(radius);
     }
 
     @Override
